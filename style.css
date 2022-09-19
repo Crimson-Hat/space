@@ -322,13 +322,6 @@ table {
   }
 }
 
-/* navbar styling */
-.slideshow-container{
-    display: flex;
-    width:auto repeat(2,100px);
-    height:auto repeat(2,100px);
-
-}
 
 /* social meadea */
 
