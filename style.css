@@ -61,7 +61,44 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
-
+.slider{
+    width: relative;
+    height:relative;
+    overflow: hidden;
+  position: relative;
+}
+.owl-carousel .owl-nav{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 20%;
+  transform: translateY(-20%);
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.button.owl-prev,
+  button.owl-next{
+    padding: 10px 15px !important;
+    border: 2px solid gray !important;
+    border-radius: 50%;
+    transform: rotateZ(-180deg);
+    vertical-align: text-bottom;
+  }
+.slide-elem{
+    width:relative;
+    height: relative;
+    text-align: center;
+    font-family: Impact;
+    font-size: 140px;
+    z-index: -1;
+}
+.character-carousel owl-carousel{
+    width: auto;
+    height: relative;
+    position: relative;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
